@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="q2d"/>
+  <meta property="og:description" content="Turning Questions into Dialogs to Teach Models How to Search"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="q2d">
+  <meta name="twitter:description" content="Turning Questions into Dialogs to Teach Models How to Search">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>q2d </title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">-->
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">q2d: Turning Questions into Dialogs to Teach Models How to Search</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://yonatanbitton.github.io/" target="_blank">Yonatan Bitton</a>,&nbsp;</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/shlomi-cohen-ganor-2931a38" target="_blank">Shlomi Cohen-Ganor</a>,&nbsp;</span>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/idohakimi" target="_blank">Ido Hakimi</a>,&nbsp;</span><br>
+                    <span class="author-block">
+                      <a href="https://www.linkedin.com/in/yoad-lewenberg-4ab2b871" target="_blank">Yoad Lewenberg</a>,&nbsp;</span>
+                      <span class="author-block">
+                        <a href="http://roeeaharoni.com/" target="_blank">Roee Aharoni</a>,&nbsp;</span>
+                        <span class="author-block">
+                          <a href="https://www.linkedin.com/in/enav-weinreb-2137a611" target="_blank">Enav Weinreb</a>,&nbsp;</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">The Hebrew University of Jerusalem,</span>
+                    <span class="author-block">Google&nbsp;Research</span>
+                  </div>
+
+<!--                  &lt;!&ndash; Github link &ndash;&gt;-->
+<!--                  <span class="link-block">-->
+<!--                    <a href="https://github.com/YOUR REPO HERE" target="_blank"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fab fa-github"></i>-->
+<!--                    </span>-->
+<!--                    <span>Code</span>-->
+<!--                  </a>-->
+<!--                </span>-->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2304.14318" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+<!--                &lt;!&ndash; HuggingFace Link &ndash;&gt;-->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://huggingface.co/datasets/nlphuji/whoops" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <p style="font-size:20px">&#x1F917;</p>-->
+<!--                  </span>-->
+<!--                  <span>Dataset</span>-->
+<!--                </a>-->
+<!--              </span>-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="publication-flipped">
+<!--        <h2 class="title is-3">q2d is an automatic data generation pipeline that generates information-seeking dialogs from questions. q2d effectively replaces human-annotated data for training query-generation models and creates high-quality training and evaluation data across multiple domains.</h2>-->
+        <div class="content has-text-justified">
+            <p style="text-align:center;">
+               <img src="static/images/q2d_1.png"  style="width: 50%; height: 50%"/>
+               <br>
+            </p>
+            <h3 class="subtitle is-size-5-tablet has-text-left pb-5">
+               <p>
+                    q2d is an automatic data generation pipeline that generates information-seeking dialogs from questions.
+                    q2d effectively replaces human-annotated data for training query-generation models and creates high-quality training and evaluation data across multiple domains.
+               </p>
+            </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Generating Dialogs from Questions
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+           We use PaLM to create conversational QA datasets, enhancing query generation models for dialogs.
+           Our method offers automatic generation of query-based grounded dialogs, providing better control and scalability than human-written dialogs.
+
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/q2d_a1.png"  style="width: 40%; height: 40%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Replacing Human-Annotated with Auto-Generated Data
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+         Models trained on auto-generated data reach 90-95% performance of those on human-annotated data, showcasing q2d's effectiveness in reducing annotation effort and producing synthetic training data close to human quality.
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/q2d_t1.png"  style="width: 70%; height: 70%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Extending Query Generation
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+            We show that our q2d method is flexible and can adapt to specific dialog styles without annotated data. <br>
+             It generates labeled query-generation datasets that are useful for training and evaluation.
+             This is demonstrated through multi-hop QA.
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/q2d_t2.png"  style="width: 70%; height: 70%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Intrinsic Evaluation
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+            Naturalness, Factuality, and Correctness - Our in-depth analysis shows that humans have difficulty distinguishing synthetic dialogs from natural ones.
+            <br>Additionally, auto-generated answers perform similarly to human-annotated answers in query generation.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/q2d_3.png"  style="width: 40%; height: 40%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Factuality Evaluation
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+               We assess the factuality and relevancy of PaLM-generated answers using an NLI-based evaluation.
+               <br> The results demonstrate the high quality of the generated dialogs.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/q2d_4.png"  style="width: 40%; height: 40%"/>
+         </p>
+         </h3>
+      </div>
+
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.16.2/gradio.js"></script>
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+          <h3 class="subtitle is-size-4-tablet has-text-left">
+               <p>
+                   q2d's auto-generated dialogs enable query generation models to adapt and improve for specific dialog styles, creating labeled datasets for training and evaluation.
+                   <br>T5 model predictions above/below the line show the impact of fine-tuning on MuSiQue dialogs.
+               </p>
+               <p style="text-align:center;">
+                   <br><br>
+                   <img src="static/images/q2d_5.png"  style="width: 60%; height: 60%"/>
+               </p>
+         </h3>
+        </div>
+
+      </div>
+    </div>
+</section>
+<!-- End youtube video-->
+
+<!-- Youtube video -->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-left pr-4 pl-4 pt-3 pb-3">-->
+<!--      We collect <i>normal</i> (synthetic, not weird) and <i>natural</i> (non-synthetic, not weird) images to investigate the main challenge in WHOOPS!. BLIP2 model performs well on <i>non-weird</i> cases but struggles on weird ones, indicating that weirdness is the primary challenge, not synthesis.-->
+<!--      </h3>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--          <div class="publication-video">-->
+<!--            <iframe src="https://nlphuji-wmtis-explorer-identify.hf.space" frameborder="0" width="850" height="450"></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Paper</h2>-->
+<!--      <iframe  src="static/pdfs/WHOOPS_paper.pdf" width="100%" height="550">-->
+<!--          </iframe>-->
+<!--        -->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>Coming Soon</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+<!--BibTex citation -->
+<!--  <section class="section" id="BibTeX">-->
+<!--    <div class="container is-max-desktop content">-->
+<!--      <h2 class="title">BibTeX</h2>-->
+<!--      <pre><code>BibTex Code Here</code></pre>-->
+<!--    </div>-->
+<!--</section>-->
+<!--End BibTex citation -->
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p style="color:gray;font-size:9.9px;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            <a href="https://www.flaticon.com/free-icons/magic" title="magic icons">Magic icons created by Freepik - Flaticon</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+  </body>
+  </html>
